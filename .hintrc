@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "meta-charset-utf-8": "off",
+    "meta-viewport": "off",
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id-active": "off"
+      }
+    ],
+    "axe/name-role-value": "off",
+    "axe/text-alternatives": "off",
+    "compat-api/css": "off",
+    "axe/structure": "off"
+  }
+}
